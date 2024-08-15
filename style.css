@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px 80px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+}
+
+.face {
+    font-size: 50px;
+    color: red; /* Default color for the initial face emoji */
+}
+
+.star {
+    font-size: 25px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.yellow {
+    color: #FFD700; /* Yellow color for selected stars */
+}
